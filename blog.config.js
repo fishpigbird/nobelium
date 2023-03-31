@@ -1,24 +1,24 @@
 const BLOG = {
-  title: 'Fish_pig_bird',
-  author: 'Fish',
-  email: 'fishpigbird@gmail.com',
-  link: 'https://blog.fpb.icu',
-  description: 'This is the choice I made',
-  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  title: 'CRAIGARY',
+  author: 'Craig Hart',
+  email: 'i@craigary.net',
+  link: 'https://nobelium.vercel.app',
+  description: 'This gonna be an awesome website.',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
-  appearance: 'auto', // ['light', 'dark', 'auto'], // a button maybe , some bug make word color same as background
+  appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2023, // If leave this empty, current year will be used.
-  postsPerPage: 51,
+  since: 2021, // If leave this empty, current year will be used.
+  postsPerPage: 7,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar 自动折叠的导航栏-》顶栏收缩
-  ogImageGenerateURL: 'https://raw.githubusercontent.com/fishpigbird/nobelium/main/public/ogimage1.png.png', // The link to generate OG image, don't end with a slash    //https://og-playground.vercel.app/
-  socialLink: 'https://fpb.icu',
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
+  socialLink: 'https://twitter.com/craigaryhart',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -48,7 +48,7 @@ const BLOG = {
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: 'fishpigbird/notiontalks'
+      repo: ''
     },
     cusdisConfig: {
       appId: '', // data-app-id
