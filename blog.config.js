@@ -11,12 +11,12 @@ const BLOG = {
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
-  since: 2021, // If leave this empty, current year will be used.
-  postsPerPage: 15,
+  since: 2023, // If leave this empty, current year will be used.
+  postsPerPage: 51,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar 自动折叠的导航栏-》顶栏收缩
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar 自动折叠的导航栏-》顶栏收缩
   ogImageGenerateURL: 'https://raw.githubusercontent.com/fishpigbird/nobelium/main/public/ogimage1.png.png', // The link to generate OG image, don't end with a slash    //https://og-playground.vercel.app/
   socialLink: 'https://fpb.icu',
   seo: {
@@ -38,7 +38,7 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'utterances', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
       repo: '', // The repository of store comments
       owner: '',
@@ -48,7 +48,7 @@ const BLOG = {
       distractionFreeMode: false
     },
     utterancesConfig: {
-      repo: 'https://github.com/fishpigbird/notiontalks'
+      repo: 'fishpigbird/notiontalks'
     },
     cusdisConfig: {
       appId: '', // data-app-id
