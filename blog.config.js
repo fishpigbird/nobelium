@@ -16,7 +16,7 @@ const BLOG = {
   sortByDate: false,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar 自动折叠的导航栏-》顶栏收缩
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar 自动折叠的导航栏-》顶栏收缩
   ogImageGenerateURL: 'https://raw.githubusercontent.com/fishpigbird/nobelium/main/public/ogimage1.png.png', // The link to generate OG image, don't end with a slash    //https://og-playground.vercel.app/
   socialLink: 'https://fpb.icu',
   seo: {
