@@ -12,12 +12,15 @@ const BLOG = {
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2023, // If leave this empty, current year will be used.
-  postsPerPage: 51,
+  postsPerPage: 111,
   sortByDate: false,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar 自动折叠的导航栏-》顶栏收缩
-  ogImageGenerateURL: 'https://raw.githubusercontent.com/fishpigbird/nobelium/main/public/ogimage1.png.png', // The link to generate OG image, don't end with a slash    //https://og-playground.vercel.app/
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar 自动折叠的导航栏-》顶栏收缩
+  ogImageGenerateURL: 'https://og-image-craigary.vercel.app/', // The link to generate OG image, don't end with a slash    //https://og-playground.vercel.app/
+  //https://og-image-craigary.vercel.app/
+  //
+  //https://raw.githubusercontent.com/fishpigbird/nobelium/main/public/ogimage1.png.png
   socialLink: 'https://fpb.icu',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
